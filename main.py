@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # 示例极坐标数据 (r, theta)
 # r 是径向距离，theta 是角度 (弧度制)
-r = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+r = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
 theta = np.linspace(0, 2 * np.pi, len(r))  # 生成等间隔的角度 (0 到 2*pi)
 
 # 1. 将极坐标转换为笛卡尔坐标 (x, y)
